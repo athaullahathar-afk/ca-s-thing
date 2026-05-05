@@ -3,66 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Moment ✨</title>
+    <title>🐾 Ca's Thing</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="stars"></div>
-    <div class="hearts"></div>
-    
+    <div class="floating-blobs">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
     <div class="container">
         <div class="card">
-            <!-- Loading Screen -->
+            <!-- Kawaii Loading -->
             <div class="loading-screen" id="loading">
-                <div class="loader">
-                    <i class="fas fa-heart"></i>
-                    <p>Preparing something special...</p>
+                <div class="kawaii-loader">
+                    <div class="face">
+                        <div class="eye left"></div>
+                        <div class="eye right"></div>
+                        <div class="mouth"></div>
+                    </div>
+                    <p class="loading-text">Getting ready~</p>
                 </div>
             </div>
 
-            <!-- Main Content -->
             <div class="main-content" id="mainContent">
-                <div class="top-decoration">
-                    <div class="heart-float"><i class="fas fa-heart"></i></div>
-                    <div class="heart-float delay1"><i class="fas fa-heart"></i></div>
-                </div>
-
-                <div class="avatar-section">
+                <!-- Kawaii Avatar -->
+                <div class="avatar-wrapper">
                     <div class="avatar">
+                        <div class="ears">
+                            <div class="ear left"></div>
+                            <div class="ear right"></div>
+                        </div>
                         <i class="fas fa-user-circle"></i>
-                        <span class="glow">👋</span>
+                        <div class="blush left"></div>
+                        <div class="blush right"></div>
                     </div>
                 </div>
 
                 <div class="header">
-                    <h1 class="title typewrite" data-text="Hey [Her Name] ✨">
+                    <h1 class="title typewrite" data-text="Hey cutie!">
                         <span class="cursor">|</span>
                     </h1>
-                    <p class="subtitle">I've been meaning to tell you something... 
-                        <span class="emoji-wave">👋</span>
-                    </p>
+                    <p class="subtitle">Quick Google Meet? 🐾<br>Pick your fave time!</p>
                 </div>
 
-                <div class="content">
-                    <div class="speech-bubble">
-                        <p>Can we have a quick Google Meet? Just us two. Pick when you're free:</p>
-                    </div>
-                    
-                    <div class="date-grid" id="dateGrid">
-                        <!-- Dates populated by JS -->
-                    </div>
+                <div class="date-grid" id="dateGrid"></div>
 
-                    <div class="magic-button" id="magicBtn" style="display: none;">
+                <div class="confirm-section" id="confirmSection" style="display: none;">
+                    <button class="confirm-btn" id="confirmBtn">
                         <i class="fas fa-magic"></i>
-                        <span>Confirm & Chat</span>
-                    </div>
+                        Chat now! ✨
+                    </button>
                 </div>
 
-                <div class="bottom-hearts">
-                    <i class="fas fa-heart heart1"></i>
-                    <i class="fas fa-heart heart2"></i>
+                <!-- Paw prints -->
+                <div class="paw-prints">
+                    <div class="paw paw1">🐾</div>
+                    <div class="paw paw2">🐾</div>
                 </div>
             </div>
         </div>
