@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Moment ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="hearts"></div>
+    
+    <div class="container">
+        <div class="card">
+            <!-- Loading Screen -->
+            <div class="loading-screen" id="loading">
+                <div class="loader">
+                    <i class="fas fa-heart"></i>
+                    <p>Preparing something special...</p>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="main-content" id="mainContent">
+                <div class="top-decoration">
+                    <div class="heart-float"><i class="fas fa-heart"></i></div>
+                    <div class="heart-float delay1"><i class="fas fa-heart"></i></div>
+                </div>
+
+                <div class="avatar-section">
+                    <div class="avatar">
+                        <i class="fas fa-user-circle"></i>
+                        <span class="glow">👋</span>
+                    </div>
+                </div>
+
+                <div class="header">
+                    <h1 class="title typewrite" data-text="Hey [Her Name] ✨">
+                        <span class="cursor">|</span>
+                    </h1>
+                    <p class="subtitle">I've been meaning to tell you something... 
+                        <span class="emoji-wave">👋</span>
+                    </p>
+                </div>
+
+                <div class="content">
+                    <div class="speech-bubble">
+                        <p>Can we have a quick Google Meet? Just us two. Pick when you're free:</p>
+                    </div>
+                    
+                    <div class="date-grid" id="dateGrid">
+                        <!-- Dates populated by JS -->
+                    </div>
+
+                    <div class="magic-button" id="magicBtn" style="display: none;">
+                        <i class="fas fa-magic"></i>
+                        <span>Confirm & Chat</span>
+                    </div>
+                </div>
+
+                <div class="bottom-hearts">
+                    <i class="fas fa-heart heart1"></i>
+                    <i class="fas fa-heart heart2"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
