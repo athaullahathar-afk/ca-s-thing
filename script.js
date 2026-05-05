@@ -4,7 +4,7 @@ class KawaiiConfession {
             { day: 'Thu 12', time: '7:00 PM', full: 'Thursday, December 12th - 7:00 PM 🐾' },
             { day: 'Sat 14', time: '3:00 PM', full: 'Saturday, December 14th - 3:00 PM ✨' },
             { day: 'Mon 16', time: '6:30 PM', full: 'Monday, December 16th - 6:30 PM 🌟' },
-            { day: 'Wed 18', time: '8:00 PM', full: 'Wednesday, December 18th - 8:00 PM 🎀' }
+            { day: 'Wed 18', time: '8:00 PM', full: 'Wednesday, December 18th - 8:00 PM' }
         ];
         this.selectedDate = null;
         this.waNumber = '6281234567890'; // YOUR WA NUMBER!
@@ -104,7 +104,7 @@ class KawaiiConfession {
     redirectToWhatsApp() {
         if (!this.selectedDate) return;
         
-        const message = `Hey cutie! 🐾 Chose ${this.selectedDate.full} for our Google Meet! You free? 😘`;
+        const message = `Hey cutie! 🐾 Chose ${this.selectedDate.full} for our Google Meet! You free?`;
         const encodedMessage = encodeURIComponent(message);
         window.open(`https://wa.me/${this.waNumber}?text=${encodedMessage}`, '_blank');
     }
