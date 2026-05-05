@@ -3,21 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🐾 Ca's Thing</title>
+    <title>🐾 Special Chat</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fredoka+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="floating-blobs">
-        <div class="blob blob1"></div>
-        <div class="blob blob2"></div>
-        <div class="blob blob3"></div>
-    </div>
-
     <div class="container">
         <div class="card">
-            <!-- Kawaii Loading -->
             <div class="loading-screen" id="loading">
                 <div class="kawaii-loader">
                     <div class="face">
@@ -30,7 +23,6 @@
             </div>
 
             <div class="main-content" id="mainContent">
-                <!-- Kawaii Avatar -->
                 <div class="avatar-wrapper">
                     <div class="avatar">
                         <div class="ears">
@@ -50,16 +42,17 @@
                     <p class="subtitle">Quick Google Meet? 🐾<br>Pick your fave time!</p>
                 </div>
 
-                <div class="date-grid" id="dateGrid"></div>
+                <div class="date-grid" id="dateGrid">
+                    <!-- Dates will load here -->
+                </div>
 
-                <div class="confirm-section" id="confirmSection" style="display: none;">
-                    <button class="confirm-btn" id="confirmBtn">
+                <div class="confirm-section" id="confirmSection">
+                    <button class="confirm-btn" id="confirmBtn" style="display: none;">
                         <i class="fas fa-magic"></i>
                         Chat now! ✨
                     </button>
                 </div>
 
-                <!-- Paw prints -->
                 <div class="paw-prints">
                     <div class="paw paw1">🐾</div>
                     <div class="paw paw2">🐾</div>
